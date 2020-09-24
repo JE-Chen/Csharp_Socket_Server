@@ -1,0 +1,7 @@
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\obj\Debug\SocketServer.csprojAssemblyReference.cache
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+D:\WorkSpaces\Program WorkSpace\C#\Projects\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
