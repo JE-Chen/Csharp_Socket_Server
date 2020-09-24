@@ -62,26 +62,19 @@ namespace SocketServer
                 String clientMessage = null;
                 Byte[] sendByte = null;
                 String serverResponse = null;
-                String responseCount = null;
                 while (Running)
                 {
                     requestCount += 1;
                     NetworkStream networkStream = client.GetStream();
-                    networkStream.Read(buffer, 0, client.ReceiveBufferSize);
+                    networkStream.Read(buffer, 0, buffer.Length);
                     clientMessage = Encoding.ASCII.GetString(buffer);
-                    clientMessage = clientMessage.Substring(0, clientMessage.IndexOf("$"));
-                    Console.WriteLine("Client send : " + clientMessage + " from " + clientNo);
-                    responseCount = Convert.ToString(requestCount);
-                    serverResponse = "Server send to Clinet(" + clientNo + ") " + responseCount;
+                    Console.WriteLine("Client send : " + clientMessage);
+                    serverResponse = "Hello Client";
                     sendByte = Encoding.ASCII.GetBytes(serverResponse);
                     networkStream.Write(sendByte, 0, sendByte.Length);
                     networkStream.Flush();
-                    Console.WriteLine(" Server sent " + serverResponse);
                 }
             }
-
         }
-
-
     }
 }
